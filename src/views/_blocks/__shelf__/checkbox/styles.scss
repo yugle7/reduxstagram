@@ -1,0 +1,93 @@
+@mixin icon($sz, $borderColor, $lineColor) {
+    position: relative;
+    display: inline-block;
+    box-sizing: content-box;
+    width: $sz * 70 / 80;
+    height: $sz * 70 / 80;
+    padding: 0;
+    border: 1px solid $borderColor;
+
+    .sa-line {
+        position: absolute;
+        height: $sz * 8 / 80;
+        background-color: $lineColor;
+        border-radius: $sz * 2 / 80;
+        &.sa-tip {
+            top: $sz * 46 / 80;
+            left: $sz * 9 / 80;
+            width: $sz * 25 / 80;
+            transform: rotate(45deg);
+        }
+        &.sa-long {
+            top: $sz * 38 / 80;
+            right: $sz * 3 / 80;
+            width: $sz * 47 / 80;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+
+$width: 20px;
+$borderColor: #efe2e2;
+$lineColor: #f24769;
+.checkbox {
+    position: relative;
+    cursor: pointer;
+    &__square {
+        position: relative;
+        display: inline-block;
+        box-sizing: content-box;
+        width: $width;
+        height: $width;
+        padding: 0;
+        background-color: #ffffff;
+        border: 2px solid lighten($borderColor, 5);
+        border-radius: 2px;
+        transform: scale(.9);
+        .sa-line {
+            position: absolute;
+            display: none;
+            height: 3px;
+            background-color: $lineColor;
+            border-radius: 1px;
+            &.sa-tip {
+                top: 11px;
+                left: 2px;
+                width: 8px;
+                transform: rotate(45deg);
+            }
+            &.sa-long {
+                top: 9px;
+                right: 1px;
+                width: 14px;
+                transform: rotate(-45deg);
+            }
+        }
+        &.checked {
+            border-color: $borderColor;
+            .sa-line {
+                display: block;
+            }
+        }
+        &.has-label {
+            position: absolute;
+        }
+    }
+
+    &:hover &__square {
+        border-color: $borderColor;
+    }
+
+    &__label {
+        display: inline-block;
+        padding-left: $width + 16px;
+        line-height: $width + 6px;
+        opacity: 0.6;
+        user-select: none;
+    }
+    &__readonly {
+        opacity: 0.4 !important;
+    }
+}
+

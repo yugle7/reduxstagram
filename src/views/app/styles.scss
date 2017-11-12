@@ -1,0 +1,39 @@
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import '~assets/styles/constants';
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('~assets/fonts/OpenSans-Regular.woff2') format('woff2')
+}
+
+html, body, #root, #page, #main {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: $color-font;
+  margin: 0;
+  background-color: $color-background;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  position: absolute;
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-border;
+}
+
+#main {
+  margin-top: 70px;
+}

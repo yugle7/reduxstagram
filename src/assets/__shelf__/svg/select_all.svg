@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>283EC1D6-2330-47F5-B4E6-39CCADEC49D3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g >
+            <g >
+                <rect fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M20,20 L21.0081969,20 C21.5444124,20 21.9995213,19.5523655 21.9999996,19 L24,19 L24,16 L22,16 L22,13 L24,13 L24,11 L22,11 L22,8 L24,8 L24,5 L21.9999997,5 C21.999536,4.44416643 21.5556685,4 21.0081969,4 L20,4 L20,2 L21.9950534,2 C23.1023548,2 24,2.89821238 24,3.99079514 L24,20.0092049 C24,21.1086907 23.1029738,22 21.9950534,22 L20,22 L20,20 Z M17,20 L14,20 L14,22 L17,22 L17,20 Z M17,2 L14,2 L14,4 L17,4 L17,2 Z M2.00000036,19 C2.00046397,19.5558336 2.44433153,20 2.99180311,20 L4,20 L4,22 L2.00494659,22 C0.897645164,22 0,21.1017876 0,20.0092049 L0,3.99079514 C0,2.89130934 0.897026226,2 2.00494659,2 L4,2 L4,4 L2.99180311,4 C2.45558761,4 2.00047872,4.4476345 2.00000038,5 L0,5 L0,8 L2,8 L2,11 L0,11 L0,13 L2,13 L2,16 L0,16 L0,19 L2.00000034,19 Z M10,2 L7,2 L7,4 L10,4 L10,2 Z M10,22 L7,22 L7,20 L10,20 L10,22 Z" fill="#FFFFFF"></path>
+                <circle fill="#FFFFFF" cx="6" cy="9" r="2"></circle>
+                <circle fill="#FFFFFF" cx="6" cy="15" r="2"></circle>
+                <circle fill="#FFFFFF" cx="12" cy="9" r="2"></circle>
+                <circle fill="#FFFFFF" cx="12" cy="15" r="2"></circle>
+                <circle fill="#FFFFFF" cx="18" cy="9" r="2"></circle>
+                <circle fill="#FFFFFF" cx="18" cy="15" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

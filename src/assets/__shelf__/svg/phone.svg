@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>CDC5F753-C61E-47A9-B7DF-713964070C4E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="svg-phone-path-1" x="0" y="0" width="14" height="20" rx="2"></rect>
+        <mask id="svg-phone-mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="20" fill="white">
+            <use xlink:href="#svg-phone-path-1"></use>
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="1" y="1" rx="2" ry="2" width="16" height="22" style="fill: none;stroke: white;stroke-width:2;"></rect>
+        <circle fill="white" cx="9" cy="19" r="1"></circle>
+    </g>
+</svg>

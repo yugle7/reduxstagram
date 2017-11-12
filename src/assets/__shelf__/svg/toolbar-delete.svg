@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>91B7B986-BAB2-4CD9-BCE1-5ED4BCD5382F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M2,3 L18,3 L17.0588212,19.0000398 C17.0263351,19.5523026 16.5500512,20 15.9931545,20 L4.00684547,20 C3.45078007,20 2.97325242,19.5452911 2.94117881,19.0000398 L2,3 Z" id="svg-toolbar-delete-path-1"></path>
+        <mask id="svg-toolbar-delete-mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="17" fill="white">
+            <use xlink:href="#svg-toolbar-delete-path-1"></use>
+        </mask>
+        <path d="M14,3 C14,1.34314575 12.209139,0 10,0 C7.790861,0 6,1.34314575 6,3" id="svg-toolbar-delete-path-3"></path>
+        <mask id="svg-toolbar-delete-mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="3" fill="white">
+            <use xlink:href="#svg-toolbar-delete-path-3"></use>
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g >
+            <g transform="translate(2.000000, 2.000000)">
+                <rect fill="#4E5366" x="9" y="7" width="2" height="9" rx="1"></rect>
+                <rect fill="#4E5366" transform="translate(13.000000, 11.500000) rotate(3.000000) translate(-13.000000, -11.500000) " x="12" y="7" width="2" height="9" rx="1"></rect>
+                <rect fill="#4E5366" transform="translate(7.000000, 11.500000) rotate(-3.000000) translate(-7.000000, -11.500000) " x="6" y="7" width="2" height="9" rx="1"></rect>
+                <use stroke="#4E5366" mask="url(#svg-toolbar-delete-mask-2)" stroke-width="4" xlink:href="#svg-toolbar-delete-path-1"></use>
+                <use stroke="#4E5366" mask="url(#svg-toolbar-delete-mask-4)" stroke-width="4" xlink:href="#svg-toolbar-delete-path-3"></use>
+                <rect fill="#4E5366" x="0" y="3" width="20" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.table__item-count {
+    .wrapper {
+        display: inline-block;
+        min-width: 3rem;
+        text-align: center;
+        .number_with_comma {
+            font-size: 17px;
+        }
+        .count_text {
+            font-size: 11px;
+            color: #777;
+        }
+    }
+}

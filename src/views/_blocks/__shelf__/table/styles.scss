@@ -1,0 +1,117 @@
+// standard
+.table { display: table; }
+.tr { display: table-row; }
+.td { display: table-cell; }
+
+
+// not usage
+//.table    { display: table }
+//.tr       { display: table-row }
+//.thead    { display: table-header-group }
+//.tbody    { display: table-row-group }
+//.tfoot    { display: table-footer-group }
+//.col      { display: table-column }
+//.colgroup { display: table-column-group }
+//.td, .th  { display: table-cell }
+//.caption  { display: table-caption }
+
+
+.pcs-table {
+    position: relative;
+    clear: both;
+
+    > .table {
+        width: 100%;
+        //box-sizing: border-box;
+        border-collapse: collapse;
+        font-weight: normal;
+        background-color: #fff;
+        border: 1px solid #e9ebf4;
+    }
+
+    .tr {
+        //border-bottom: 1px solid #e9ebf4;
+    }
+    &__header { /* see in header folder */
+        font-size: 12px;
+        color: #8e92a4;
+        letter-spacing: 0.3px;
+        user-select: none;
+        &-item > span {
+            //display: inline-block;
+            //margin-right: 1.7rem; // для сортировки
+        }
+    }
+    &__item {
+        font-size: 15px;
+        //color: #5d606f;
+        letter-spacing: 0.4px;/* see in item folder */
+
+    }
+    &__loading {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 234234;
+        background: #fafbfe;
+        opacity: 0.8;
+        svg {
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            width: 20px;
+            transform: translate3d(50%, 50%, 0);
+            /* see in loading folder */
+        }
+    }
+
+    .td {
+        max-width: 200px;
+        padding: 6px 0 6px 8px;
+        overflow: hidden;
+        vertical-align: middle;
+        text-overflow: ellipsis;
+        &.table__item-icon {
+            padding: 0;
+        }
+        &.table__item-label {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+    }
+    .ribbon {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        z-index: 2;
+        transform: translateX(-50%);
+    }
+}
+
+$arrowWidth: .6rem;
+.pcs-sorting {
+    position: relative;
+    display: inline-block;
+    width: 2 * $arrowWidth;
+    height: $arrowWidth;
+    margin-left: .2rem;
+    > div {
+        position: absolute;
+        width: $arrowWidth;
+        height: $arrowWidth;
+        cursor: pointer;
+        fill: darken(#e9ebf4, 10);
+        &.ascending {
+            top: 3px;
+            transform: rotate(180deg);
+        }
+        &.descending {
+            top: -3px;
+        }
+        &:nth-child(2) {
+            left: $arrowWidth + .1rem;
+        }
+    }
+}

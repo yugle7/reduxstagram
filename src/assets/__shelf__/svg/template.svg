@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216" height="160" viewBox="0 0 216 160">
+    <defs>
+        <path id="a" d="M4 0h212v160H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+        <path id="d" d="M0 3.997A3.998 3.998 0 0 1 3.993 0h148.014A3.994 3.994 0 0 1 156 3.997V130H0V3.997z"/>
+        <filter id="c" width="106.4%" height="107.7%" x="-3.2%" y="-3.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.621374509 0 0 0 0 0.664372044 0 0 0 0 0.903247236 0 0 0 0.345929574 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#ECEFF7" xlink:href="#a"/>
+        <g mask="url(#b)">
+            <g transform="translate(30 30)">
+                <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+                <use fill="#FFF" xlink:href="#d"/>
+            </g>
+            <path fill="#E7EAF3" d="M50 50h116v40H50zM50 100h116v4H50zM50 109h116v4H50zM50 118h116v4H50zM50 127h78v4H50z"/>
+        </g>
+    </g>
+</svg>

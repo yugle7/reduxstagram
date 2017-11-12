@@ -1,0 +1,51 @@
+@import '~assets/styles/constants';
+
+.header {
+  ul.menu {
+    padding-left: 30px;
+    li {
+      float: left;
+      padding: 0 10px;
+      a {
+        text-decoration: none;
+        line-height: 60px;
+      }
+    }
+    .active {
+      background-color: $color-silver;
+    }
+  }
+  ul.menu.right {
+    float: right;
+    padding-right: 30px;
+  }
+  .user {
+    position: absolute;
+    //top: 5px;
+    right: 20px;
+    &__name {
+      float: left;
+      line-height: 60px;
+      padding-right: 10px;
+    }
+    img {
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      padding: 5px;
+      margin: 9px;
+      border: 1px solid #fbfafe;
+    }
+    &__logout {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      opacity: .7;
+      fill: $color-font;
+      &:hover {
+        opacity: .9;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.page-article-update {
+  form > * {
+    margin-top: 10px;
+  }
+  .text-area {
+    height: 300px;
+  }
+  textarea {
+    resize: none;
+  }
+}

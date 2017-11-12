@@ -1,0 +1,39 @@
+.pcs-table__header-item {
+    .searcher {
+        position: relative;
+        cursor: pointer;
+        & + .pcs-sorting {
+            margin-left: .9rem;
+        }
+        .icon {
+            position: absolute;
+            top: 0;
+            right: -15px;
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            svg g > * {
+                stroke: #c7cce3!important;
+            }
+        }
+    }
+
+
+    .input-validate {
+        display: inline-block;
+        margin: 0;
+        padding-right: 2rem;
+        &-wrapper {
+            input {
+                padding-right: 2rem;
+            }
+            .control {
+                //top: .45rem;
+                //color: #231F20;
+            }
+        }
+        & + .pcs-sorting {
+            margin-left: -1.5rem;
+        }
+    }
+}

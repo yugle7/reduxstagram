@@ -1,0 +1,41 @@
+@import '~assets/styles/constants';
+
+.article {
+  &__item {
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid $color-silver;
+    background-color: $color-white;
+    margin-bottom: 20px;
+    padding: 16px;
+    cursor: pointer;
+  }
+  &__header {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+  }
+  &__content {
+    margin-bottom: 10px;
+    color: $color-font--light;
+  }
+  &__actions {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    > *:not(:last-child) {
+      padding-right: 10px;
+    }
+    svg {
+      width: 14px;
+      height: 14px;
+      fill: $color-font;
+      fill-opacity: .5;
+      &:hover {
+        fill-opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.counter {
+  &__button {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #28a745;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 3px;
+    min-width: 22px;
+    padding: 5px 10px;
+  }
+}

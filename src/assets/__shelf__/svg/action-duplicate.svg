@@ -1,0 +1,20 @@
+<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>47ACB7D7-6817-41FF-B6DE-85E5CB860F03</title>
+	<defs>
+		<rect id="svg-action-duplicate-a" y="3" width="13" height="13" rx="2"/>
+		<mask id="svg-action-duplicate-c" x="0" y="0" width="13" height="13" fill="#fff">
+			<use xlink:href="#svg-action-duplicate-a"/>
+		</mask>
+		<path d="M3 3.07V1.996C3 .894 3.894 0 5.003 0h8.994A2 2 0 0 1 16 2.003v8.994A2.003 2.003 0 0 1 13.991 13h-1.028" id="svg-action-duplicate-b"/>
+		<mask id="svg-action-duplicate-d" x="0" y="0" width="13" height="13" fill="#fff">
+			<use xlink:href="#svg-action-duplicate-b"/>
+		</mask>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<rect fill="#2A3156" width="30" height="30" rx="4"/>
+		<g transform="translate(7 7)" stroke="#FFF" stroke-width="2.8">
+			<use mask="url(#svg-action-duplicate-c)" xlink:href="#svg-action-duplicate-a"/>
+			<use mask="url(#svg-action-duplicate-d)" xlink:href="#svg-action-duplicate-b"/>
+		</g>
+	</g>
+</svg>

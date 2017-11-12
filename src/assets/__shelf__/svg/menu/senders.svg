@@ -1,0 +1,23 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill:transparent">
+    <defs>
+        <ellipse id="path-1" cx="10" cy="5.5" rx="4" ry="4.5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="9" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Мониторинг" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar" transform="translate(-65.000000, -706.000000)">
+            <g id="Group-2" transform="translate(64.000000, 705.000000)">
+                <g id="menu_sender">
+                    <path d="M14.5355339,15.5355339 L16.5357264,15.5355339 C17.0879048,15.5355339 17.5355339,15.9793987 17.5355339,16.5355339 C17.5355339,17.0878187 17.0918173,17.5355339 16.5357264,17.5355339 L13.5353414,17.5355339 C13.259284,17.5355339 13.009358,17.4245933 12.8284334,17.2441471 C12.6474367,17.0636656 12.5355339,16.8137395 12.5355339,16.5357264 L12.5355339,13.5353414 C12.5355339,12.983163 12.9793987,12.5355339 13.5355339,12.5355339 C14.0878187,12.5355339 14.5355339,12.9792506 14.5355339,13.5353414 L14.5355339,15.5355339 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(15.035534, 15.035534) rotate(-135.000000) translate(-15.035534, -15.035534) "></path>
+                    <rect id="Rectangle-30-Copy" fill="#FFFFFF" x="10" y="14" width="6" height="2" rx="1"></rect>
+                    <g id="Menu_sender">
+                        <rect id="Rectangle-27" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <use id="Oval-9" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M11.5089108,18.9284752 L5.98514402,18.9284752 L3.92189835,18.9284752 C3.50474371,18.9284752 3.10914241,18.5977503 3.05852829,18.1684625 C3.05852829,18.1684625 1.64280629,12.0715248 8.49975677,12.0715248 C8.64962682,12.0715248 8.79554433,12.0744436 8.93761047,12.0801538" id="Rectangle-39" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

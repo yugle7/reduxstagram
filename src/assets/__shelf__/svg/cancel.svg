@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>E8DA10AE-1025-446B-B5F5-F6B90E3681E6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="svg-cancel-path-1" cx="10" cy="10" r="10"></circle>
+        <mask id="svg-cancel-mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#svg-cancel-path-1"></use>
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g >
+            <g transform="translate(2.000000, 2.000000)">
+                <use fill="none" stroke="#FFFFFF" mask="url(#svg-cancel-mask-2)" stroke-width="4" xlink:href="#svg-cancel-path-1"></use>
+                <g transform="translate(10.000000, 10.000000) rotate(-315.000000) translate(-10.000000, -10.000000) translate(5.000000, 5.000000)" fill="#FFFFFF">
+                    <rect x="4" y="0" width="2" height="10" rx="1"></rect>
+                    <rect x="0" y="4" width="10" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

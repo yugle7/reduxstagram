@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>lock_scale</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g >
+            <g transform="translate(7.000000, 5.000000)">
+                <rect fill="#8A8A8A" x="0" y="7" width="10" height="6" rx="1"></rect>
+                <path d="M2,7 L2,3 C2,1.10386041 3,2.8575092e-16 5,0 C7,0 8,1.10360616 8,3 L8,4" stroke="#8A8A8A" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

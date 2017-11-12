@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>F2A74E17-2AAE-42D4-AFA0-54E8D734C2CB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10,14 C17.5228475,14 20,7 20,7 C20,7 17.5228475,0 10,0 C2.4771525,6.44898178e-16 0,7 0,7 C0,7 2.4771525,14 10,14 Z" id="svg-toolbar-preview-path-1"></path>
+        <mask id="svg-toolbar-preview-mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="14" fill="white">
+            <use xlink:href="#svg-toolbar-preview-path-1"></use>
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g stroke="#4E5366">
+            <g transform="translate(2.000000, 5.000000)">
+                <use mask="url(#svg-toolbar-preview-mask-2)" stroke-width="4" stroke-linejoin="round" xlink:href="#svg-toolbar-preview-path-1"></use>
+                <path d="M7,7 C7,8.65685425 8.34314575,10 10,10 L10,10 C11.6568542,10 13,8.65685425 13,7 C13,5.34314575 11.6568542,4 10,4" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

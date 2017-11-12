@@ -1,0 +1,50 @@
+.pcs-table__tabs {
+    .pcs-table__tab {
+        float: left;
+        //min-width: 250px;
+        padding: 25px 30px 15px 30px;
+        opacity: .8;
+        &:hover {
+            opacity: 1;
+        }
+        &.active {
+            background-color: #fff;
+            border-bottom: 3px solid #fd6262; // rgba(253, 98, 98, .8);
+        }
+        &__label {
+            font-size: 12px;
+            color: #5d616f;
+            letter-spacing: 0.4px;
+        }
+        &__count-number {
+            font-weight: 700;
+            font-size: 35px;
+            color: #5d616f;
+            letter-spacing: -1px;
+        }
+        &__count-string {
+            padding-left: 5px;
+            font-size: 11px;
+        }
+        &__link {
+            color: #3f51b5;
+            cursor: pointer;
+            transition: .2s;
+            fill: #3f51b5;
+            &:hover {
+                color: #04a9f4;
+                fill: #04a9f4;
+            }
+            svg {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+            }
+            .text {
+                padding-left: 26px;
+                font-size: 13px;
+                white-space: nowrap;
+            }
+        }
+    }
+}

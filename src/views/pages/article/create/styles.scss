@@ -1,0 +1,14 @@
+.page-article-create {
+  form > * {
+    margin-top: 10px;
+  }
+  //&, form, form > .text-area {
+  //  height: 100%;
+  //}
+  .text-area {
+    height: 300px;
+  }
+  textarea {
+    resize: none;
+  }
+}
